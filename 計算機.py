@@ -34,7 +34,7 @@ def btnRoot():
 inputBox = Entry(W1,bd = 20,font = 30)
 inputBox.grid(row = 0,columnspan = 3)
 
-bX = Button(W1,padx = 10,pady = 16,bd = 8,text = '作者',command = lambda : btnclick('哈囉 我是作者陳子航:)')
+bX = Button(W1,padx = 10,pady = 16,bd = 8,text = '作者',command = lambda : btnclick("哈囉 我是作者陳子航:\)")
 
 b1 = Button(W1,padx = 16,pady = 16,bd = 8,text = '1',command = lambda : btnclick(1))
 b2 = Button(W1,padx = 16,pady = 16,bd = 8,text = '2',command = lambda : btnclick(2))
